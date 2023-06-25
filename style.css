@@ -51,53 +51,12 @@ h2 {
     text-align: left;
 }
 
-button{
-    background-color: rgba(124, 135, 152, 0.3);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    margin: 5px 5px 10px 10px;
+input[type="radio"]{
+    width: 50px;
+    height: auto;
 }
 
-button figure{
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-button img{
-    border-radius: 20%;
-    opacity: 1.0;
-    margin: 5px 5px 5px 10px;
-}
-
-form button {
-    background-color: rgba(124, 135, 152, 0.3);
-    border-color: hsl(213, 19%, 18%);
-    border-radius: 50%;
-    border: none;
-    color:hsl(0, 0%, 100%);
-    cursor: pointer;
-    font-size: 20px;
-    height: 70px;
-    margin: 5px 5px 15px 10px;
-    outline: none;
-    padding: 15px 30px;
-    text-align: center;
-    transition: background-color .3s ease;
-    width: 70px;
-}
-
-form button:hover {
-    background-color: hsl(217, 12%, 63%);
-    opacity: 1.0;
-}
-
-form button:active{
-    background-color: hsl(25, 97%, 53%);
-}
-
-#Submit{
+#submit{
     background-color: hsl(25, 97%, 53%);
     border-radius: 25px;
     border: none;

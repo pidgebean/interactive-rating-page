@@ -1,5 +1,13 @@
-const button = document.querySelector('form button');
-button.addEventListener('click', () =>{
-    const element = document.querySelector('form button');
-    element.style.backgroundColor = "hsl(25, 97%, 53%)";
-});
+// const btn = document.querySelector('.button');
+// btn.addEventListener('click', (e) =>{
+//     e.preventDefault();
+//     btn.style.background = 'hsl(25, 97%, 53%)';
+// })
+
+const pushed = document.querySelectorAll('.button:nth-child(i)');
+for(var i = 0; i<pushed.length; i++){
+    pushed[i].addEventListener('click', (e) =>{
+        e.preventDefault();
+        pushed[i].style.background = 'hsl(25, 97%, 53%)';
+    })
+}
